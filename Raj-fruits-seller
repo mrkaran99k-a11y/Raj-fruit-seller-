@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raj Fruit Seller | Wholesale & Retail Fresh Fruits</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9fff6;
+    color: #222;
+}
+header {
+    background: linear-gradient(90deg, #2ecc71, #f1c40f, #e74c3c);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.section {
+    padding: 25px;
+    text-align: center;
+}
+.section h2 {
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.buttons a {
+    display: block;
+    margin: 12px auto;
+    padding: 15px;
+    width: 90%;
+    max-width: 400px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.call { background: #27ae60; }
+.whatsapp { background: #25d366; }
+.map { background: #e74c3c; }
+
+.card {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+.sticky a {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.sticky .call { background: #27ae60; }
+.sticky .whatsapp { background: #25d366; }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Raj Fruit Seller</h1>
+    <p>Wholesale & Retail Fresh Fruits</p>
+    <p>MIG-11, Shyam Nagar Bypass</p>
+</header>
+
+<div class="section">
+    <h2>All Types of Fresh Fruits Available</h2>
+    <p>Daily fresh stock for homes, shops, vendors & bulk buyers.</p>
+
+    <div class="buttons">
+        <a class="call" href="tel:8090913388">📞 Call Now</a>
+        <a class="whatsapp" href="https://wa.me/918090913388?text=Hello%20I%20want%20to%20enquire%20about%20fruit%20prices" target="_blank">📲 Order on WhatsApp</a>
+        <a class="map" href="https://www.google.com/maps/search/?api=1&query=MIG-11+Shyam+Nagar+Bypass" target="_blank">📍 Get Directions</a>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Our Services</h2>
+
+    <div class="card">
+        <h3>🍎 Retail Fruits</h3>
+        <p>Apples, Bananas, Oranges, Grapes, Papaya, Pomegranate & seasonal fruits.</p>
+    </div>
+
+    <div class="card">
+        <h3>🚚 Wholesale Supply</h3>
+        <p>Bulk supply for shops, vendors, juice centers & hotels.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎉 Bulk & Party Orders</h3>
+        <p>Large quantity fruit supply for events & functions.</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Why Choose Us?</h2>
+    <div class="card">
+        <p>✔ Fresh Daily Stock<br>
+           ✔ Wholesale & Retail Available<br>
+           ✔ Best Prices<br>
+           ✔ Trusted Local Seller</p>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Contact Us</h2>
+    <p><strong>Phone / WhatsApp:</strong> 8090913388</p>
+    <p><strong>Address:</strong> MIG-11, Shyam Nagar Bypass</p>
+    <p><strong>Open:</strong> Monday – Sunday (Morning to Evening)</p>
+</div>
+
+<footer>
+    © 2026 Raj Fruit Seller | All Rights Reserved
+</footer>
+
+<div class="sticky">
+    <a class="call" href="tel:8090913388">📞 Call</a>
+    <a class="whatsapp" href="https://wa.me/918090913388?text=Hello%20I%20want%20to%20enquire%20about%20fruit%20prices" target="_blank">📲 WhatsApp</a>
+</div>
+
+</body>
+</html>
